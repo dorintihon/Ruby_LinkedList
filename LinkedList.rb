@@ -109,15 +109,3 @@ class LinkedList
     return string + "nil"
   end
 end
-
-
-list = LinkedList.new
-
-list.append(1)
-puts list.size
-
-list.prepend(3)
-list.append(5)
-puts list.size
-
-puts list.to_s
